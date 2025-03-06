@@ -1,0 +1,66 @@
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  text-shadow: rgb(37, 223, 198) 2px 4px 8px;
+  text-align: center;
+}
+
+.block{
+  display: block;
+}
+.flex{
+  display: flex;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.h-full{
+  height: 100vh;
+}
+
+.m-auto{
+  margin: auto;
+}
+
+.bg-black{
+  background-color: #000;
+}
+
+.text-white{
+  color: white;
+}
+.p-2{
+  padding: 8px;
+}
+
+.my-5{
+  margin: 20px 0;
+}
+
+.w-78{
+  width: 288px;
+}
+
+.mb-2{
+  margin-bottom: 8px;
+}
+
+.p-10px{
+  padding: 10px;
+}
+
+.mt-20px{
+  margin-top: 20px;
+}
