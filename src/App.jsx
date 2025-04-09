@@ -18,7 +18,7 @@ const App = () => {
       link.href = dataUrl;
       link.download = 'qrcode.png';
       link.click();
-      toast.success('Download successful!');
+      toast.success(<div className='flex items-center'><img src={"https://i.redd.it/will-the-anime-cutt-out-berus-chibi-moments-v0-7rjc5gsjmzqe1.jpg?width=368&format=pjpg&auto=webp&s=9d36bdd50fb48488edf317682f9886fd31b7cc4e"} alt="beru logo" style={{width:"100px", marginRight:"10px"}}/><span>Downloaded successfully</span></div>);
     }
   };
 
